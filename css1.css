@@ -1,0 +1,278 @@
+body.enlarged {
+  font-size: 1.5em;
+}
+
+.skin-purple1 {
+    background-color: #605ca8  !important;
+}
+
+
+
+
+.box1{position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 2em;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);}
+	
+.testo{
+	text-align:center;
+	font-size:2em;
+	
+}
+
+.boxMedicine{
+	border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-top: 1em;
+}
+
+td,th{
+	font-size:20px;
+}
+
+.small-box a{
+	font-size:20px;
+}
+
+.sidebar a {
+	font-size:20px;
+}
+
+label{
+	font-size:20px;
+}
+#calendar {
+    max-width: 900px;
+margin: 0 auto;}
+
+.small-box-footer1 {
+    position: relative;
+    text-align: center;
+    padding: 1em 0;
+    color: #fff;
+    color: rgba(255,255,255,0.8);
+    display: block;
+    z-index: 10;
+    /*background: rgba(0,0,0,0.1);*/
+    text-decoration: none;
+	
+    border-top-style: solid;
+    border-width: 1px;
+}
+.small-box-footer1:hover{
+	color:white;
+}
+
+.bg-aqua2{
+background-color:#337ab7 !important;
+color:white}
+
+.bg-blu{
+background-color:#0B3796 !important;
+color:white}
+
+
+.bg-purple2{
+background-color:#9D3FA1 !important;
+color:white}
+
+.bg-red2{
+background-color:#B80000  !important;
+color:white}
+
+#bg-marron1{
+background-color:#D73000  !important;
+color:white}
+
+
+.titolo{
+	color: #000000;
+text-decoration: none;}
+
+.titolo:hover{
+	background-color:#f9fafc;
+	color:#000000;
+}
+.titolopagina{
+	    font-size: 25px;
+    display: inline-block;
+    padding-left: 4px;
+    font-weight: 300;
+	
+}
+/*ho iniziato a modificare da qui eliminando il menu laterale*/
+.content-wrapper1 {
+    min-height: 100%;
+    background-color: #ecf0f5;
+    z-index: 800;
+    margin: 0;
+}
+
+
+
+.small-boxHome .iconhome {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    position: absolute;
+    top: -10%;
+    right: 1%;
+    /* z-index: 0; */
+    font-size: 90px;
+	color:#F7F7F7;
+    
+}
+
+
+.small-boxHome {
+    border-radius: 2px;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border-radius: 3%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	 background-color: #606060;
+	 padding:1em;
+}
+/*hover del bottone pagina iniziale*/
+.small-boxHome:hover{
+	 background-color: #708090;
+}
+
+
+#pag {
+    
+    text-align: center;
+    color: floralwhite;
+	font-size: 50px; !important
+}
+.main-footer1 {
+	
+    margin: 0;
+    background: #f39c12;
+    padding: 0.5em;
+    color: #444;
+    border-top: 1px solid #d2d6de;
+	position: relative;
+    bottom: 0;
+	width:100%;
+}
+.main-footer2 {
+	
+    margin: 0;
+    background: #605ca8;
+    padding: 0.5em;
+    color: #444;
+    border-top: 1px solid #d2d6de;
+	position: relative;
+    bottom: 0;
+	width:100%;
+}
+
+
+
+
+
+.frecciad{
+	float:right;
+	margin-right:35%;
+}
+.freccias{
+	display:inline;
+	margin-left:35%;
+}
+
+.bianco{
+	text-decoration:none;
+	color:white;
+}
+.icon1 {
+    
+    transition: all .3s linear;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    z-index: 0;
+    font-size: 90px;
+     color: #F7F7F7;
+}
+#orizzontale{
+	color: white;
+     text-decoration:none;
+  
+    font-size: 20px;
+    padding: 0.5em;
+	
+}
+
+#orizzontale:hover{
+	
+}
+
+.m{
+	display:inline;
+	margin-left:0.5em;
+	
+	
+	
+}
+.m a {
+	text-decoration:none;
+	color:white;
+}
+.m:hover{
+	background-color: rgba(0,0,0,0.1);
+	padding:0.7em;
+	
+}
+.m:hover a {
+	text-decoration:none;
+	color:white;
+}
+.icon2 {
+    transition: all .3s linear;
+    position: absolute;
+    top: 34px;
+    right: 10px;
+    z-index: 0;
+    font-size: 51px;
+    color: #F7F7F7;
+}
+
+.h1m{
+	margin-left:5%;
+}
+
+.centrato{
+	margin-left: 20%;
+margin-right: 20%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+   #orizzontale {
+        float: left;
+    }
+	.small{
+		font-size:29px;
+	}
+	.icon2{
+		top:50px  !important;
+		right:5px !important;
+		font-size:30px !important;	
+	}
+	form-control {
+     padding: 0;
+    font-size: 24px;
+    
+}
